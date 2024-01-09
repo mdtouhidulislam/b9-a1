@@ -287,3 +287,35 @@ img.discount-img {
     position: relative;
     margin-top: -5px;
 }
+/*Portfolio Styles*/
+.portfolio {
+    margin-bottom: 120px;
+}
+.portfolio h3.section-subtitle {
+    text-align: left;
+}
+.portfolio h2.section-title {
+    text-align: left;
+    font-family: Merriweather;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.portfolio p.section-desc {
+    max-width: 896px;
+    margin-bottom: 48px;
+}
+.portfolio-grid {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.portfolio-col:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+/*Newsletter Section styles*/
